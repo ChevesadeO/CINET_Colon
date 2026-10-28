@@ -1,4 +1,4 @@
-/* ===== PARTICULAS OSCURO ===== */
+/* ===== PARTICULAS OSCURO 
 tsParticles.load("particles", {
   background: { color: "transparent" },
   particles: {
@@ -11,7 +11,7 @@ tsParticles.load("particles", {
       speed: 0.9
     }
   }
-});
+}); ===== */
 
 /* ===== EFECTO MOUSE OSCURO ===== */
 const hero = document.querySelector(".hero-elegante");
@@ -24,20 +24,20 @@ if (hero) {
   });
 }
 
-/* ===== PARTICULAS CLARO ===== */
+/* ===== PARTICULAS CLARO 
 tsParticles.load("particles-light", {
   background: { color: "transparent" },
   particles: {
     number: { value: 50 },
     size: { value: 3 },
-    color: { value: "#5B0FA6" }, // ðŸ”¥ corregido
+    color: { value: "#5B0FA6" }, // 
     opacity: { value: 0.18 },
     move: {
       enable: true,
       speed: 0.9
     }
   }
-});
+}); ===== */
 
 /* ===== EFECTO MOUSE CLARO ===== */
 const heroClaro = document.querySelector(".hero-claro");
@@ -99,3 +99,121 @@ document.addEventListener("DOMContentLoaded", function () {
     }, 4500); // cambia cada 4.5 segundos
   }
 });
+
+// ===== MODAL CONFERENCIAS Y EXPOSITORES =====
+
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".conferencia-btn").forEach(btn => {
+    btn.addEventListener("click", function () {
+      Swal.fire({
+        title: this.dataset.titulo,
+        html: `
+          <p><strong>Facultad:</strong> ${this.dataset.facultad}</p>
+          <p><strong>Hora:</strong> ${this.dataset.hora}</p>
+          <p><strong>Sal¨®n:</strong> ${this.dataset.salon}</p>
+          <hr>
+          <p>${this.dataset.resumen}</p>
+        `,
+        icon: "info",
+        confirmButtonText: "Cerrar",
+        confirmButtonColor: "#5B0FA6"
+      });
+    });
+  });
+
+  document.querySelectorAll(".expositor-btn").forEach(btn => {
+    btn.addEventListener("click", function () {
+      Swal.fire({
+        title: this.dataset.nombre,
+        html: `
+          <p><strong>Cargo:</strong> ${this.dataset.cargo}</p>
+          <p><strong>Instituci¨®n:</strong> ${this.dataset.institucion}</p>
+          <hr>
+          <p>${this.dataset.bio}</p>
+        `,
+        icon: "question",
+        confirmButtonText: "Cerrar",
+        confirmButtonColor: "#5B0FA6"
+      });
+    });
+  });
+});
+
+
+
+
+// CRONOGRAMA POPUPS
+document.addEventListener("DOMContentLoaded", function () {
+
+  document.querySelectorAll(".conferencia-btn").forEach(btn => {
+    btn.addEventListener("click", function () {
+      Swal.fire({
+        title: this.dataset.titulo,
+        html: `
+          <p><strong>Facultad:</strong> ${this.dataset.facultad}</p>
+          <p><strong>Hora:</strong> ${this.dataset.hora}</p>
+          <p><strong>Sal¨®n:</strong> ${this.dataset.salon}</p>
+          <hr>
+          <p>${this.dataset.resumen}</p>
+        `,
+        icon: "info",
+        confirmButtonColor: "#5B0FA6"
+      });
+    });
+  });
+
+  document.querySelectorAll(".expositor-btn").forEach(btn => {
+    btn.addEventListener("click", function () {
+      Swal.fire({
+        title: this.dataset.nombre,
+        html: `
+          <p><strong>Cargo:</strong> ${this.dataset.cargo}</p>
+          <p><strong>Instituci¨®n:</strong> ${this.dataset.institucion}</p>
+          <hr>
+          <p>${this.dataset.bio}</p>
+        `,
+        icon: "question",
+        confirmButtonColor: "#5B0FA6"
+      });
+    });
+  });
+
+});
+
+// SCROLL ANIMATION
+const reveals = document.querySelectorAll(".reveal");
+
+function revealOnScroll() {
+  const windowHeight = window.innerHeight;
+
+  reveals.forEach(el => {
+    const elementTop = el.getBoundingClientRect().top;
+
+    if (elementTop < windowHeight - 80) {
+      el.classList.add("active");
+    }
+  });
+}
+
+window.addEventListener("scroll", revealOnScroll);
+
+<script>
+
+function cambiarFacultad(facultad, btn){
+
+  // botones
+  document.querySelectorAll('.fac-btn')
+    .forEach(b => b.classList.remove('activo'));
+
+  btn.classList.add('activo');
+
+  // paneles
+  document.querySelectorAll('.facultad-panel')
+    .forEach(p => p.classList.remove('activo'));
+
+  document
+    .querySelector(`[data-facultad="${facultad}"]`)
+    .classList.add('activo');
+}
+
+</script>

@@ -1,52 +1,50 @@
-<?php include("includes/header.php"); ?>
-
+<?php 
+include("includes/header.php"); ?>
 
 <!-- HERO -->
-<section id="hero" class="hero-claro d-flex align-items-center justify-content-center text-center">
+<section id="hero" class="hero-claro d-flex align-items-center">
   
-<div class="hero-slider">
+  <div class="hero-slider">
     <div class="hero-slide active" style="background-image: url('assets/img/hero1.png');"></div>
     <div class="hero-slide" style="background-image: url('assets/img/hero2.png');"></div>
     <div class="hero-slide" style="background-image: url('assets/img/hero3.png');"></div>
-
   </div>
 
   <div id="particles-light"></div>
 
-  <div class="hero-badge-center">
-<<<<<<< HEAD
-    <img src="assets/img/">
-  </div
-=======
-    <img src="assets/img/logo-45-utp.png">
-  </div>
->>>>>>> d0de2b259360defc68c4bbcf567d707340758514
+  <div class="hero-content container">
+    <div class="hero-split">
 
+      <!-- LOGO IZQUIERDA -->
+      <div class="hero-side-logo">
+        <img src="assets/img/45ani_utp.png" alt="Logo 45 años UTP">
+      </div>
 
-  <div class="hero-content container text-center">
-    <h3 class="hero-subtitle-claro">IV Congreso Internacional</h3>
-    
-    <h3 class="hero-title-claro">
-      Nuevas Estrategias Tecnológicas 
-    </h3>
-    <h5 class="hero-subtitle"> para impulsar la competitividad portuaria y logística regional.</h5>
-    
-    
-    
-    <div class="hero-line"></div>
+      <!-- TEXTO DERECHA -->
+      <div class="hero-copy">
+        <h3 class="hero-subtitle-claro">IV Congreso Internacional</h3>
+        
+        <h3 class="hero-title-claro">
+          Nuevas Estrategias Tecnológicas
+        </h3>
 
+        <h5 class="hero-subtitle">
+          para impulsar la competitividad portuaria y logística regional.
+        </h5>
+        
+        <div class="hero-line"></div>
 
+        <div class="hero-actions">
+          <a href="inscripcion.php" class="btn btn-success btn-lg btn-pulse px-5">
+            ¡Inscríbete!
+          </a>
+          <a href="cronograma.php" class="btn btn-success btn-lg px-5">
+            Cronograma
+          </a>
+        </div>
+      </div>
 
-    <!-- Botones -->
-    <a href="inscripcion.php"  
-      class="btn btn-success btn-lg btn-pulse mt-4 px-5">
-      ¡Inscríbete!
-    </a>
-    <a href="cronograma.php" class="btn btn-success btn-lg mt-4 px-5">
-      Descargar Cronograma
-    </a>
-
-    </p>
+    </div>
   </div>
 </section>
 
@@ -54,49 +52,102 @@
 <!-- ACERCA DEL CONGRESO -->
 <section class="py-5">
   <div class="container text-center reveal">
-
     <h2 class="fw-bold mb-3">Acerca del Congreso</h2>
 
     <p class="text-muted mx-auto" style="max-width: 800px;">
-      El Congreso Académico de nuestra Facultad es un evento diseñado para promover
-      el intercambio de conocimientos, experiencias y proyectos tecnológicos.
+      El 4to. Congreso Internacional: “Nuevas Estrategias Tecnológicas para Impulsar la Competitividad Portuaria y Logística Regional”, 
+      organizado por la Universidad Tecnológica de Panamá a través del Centro Regional de Colón, es un espacio académico y profesional que busca fortalecer la competitividad 
+      del sector portuario y logístico mediante la innovación tecnológica, la transferencia de conocimiento y la colaboración entre la academia, la industria y actores estratégicos de la región.
+El evento reunirá a especialistas, empresas, docentes y estudiantes en conferencias, paneles y actividades de networking orientadas al análisis de nuevas tecnologías, tendencias y soluciones 
+innovadoras que contribuyan al desarrollo sostenible, la eficiencia y la modernización del sector logístico regional.
     </p>
-
   </div>
 </section>
-
 
 <!-- FECHAS IMPORTANTES -->
-<section class="bg-light py-5">
+<section class="fechas-section py-5">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-5">Fechas Importantes</h2>
+
+    <div class="row justify-content-center g-4">
+
+      <div class="col-md-4">
+        <div class="card fecha-card text-center border-0 p-4">
+          <div class="fecha-icon mb-2">
+            <i class="bi bi-calendar-check"></i>
+          </div>
+          <h5 class="fw-bold">Apertura</h5>
+          <p class="mb-0">16 de junio de 2026</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card fecha-card text-center border-0 p-4">
+          <div class="fecha-icon mb-2">
+            <i class="bi bi-mic-fill"></i>
+          </div>
+          <h5 class="fw-bold">Conferencias</h5>
+          <p class="mb-0">18 - 19 de Junio 2026</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- PATROCINADORES -->
+<section class="patrocinadores-section py-5">
   <div class="container">
+    <div class="text-center mb-5 reveal">
+      <span class="patrocinadores-badge">Aliados estrategicos</span>
+      <h2 class="patrocinadores-title mt-3">Patrocinadores oficiales</h2>
+      <p class="patrocinadores-text mb-0">
+        Organizaciones, instituciones y empresas que apoyan la realización
+        del IV Congreso Internacional y fortalecen su alcance académico y tecnológico.
+      </p>
+    </div>
 
-    <h2 class="fw-bold text-center mb-4 reveal">
-      Fechas Importantes
-    </h2>
+    <div class="row g-4 justify-content-center patrocinadores-grid">
 
-    <div class="row g-4 text-center">
-
-      <!-- Card 1 -->
-      <div class="col-md-4 reveal">
-        <div class="card shadow-sm border-0 p-4 h-100">
-          <h5 class="fw-bold">Convocatoria</h5>
-          <p class="text-muted mb-0">15 de Febrero 2026</p>
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="patrocinador-card reveal">
+          <img src="assets/img/patrocinadores/aes.png?v=2" alt="AES">
         </div>
       </div>
 
-      <!-- Card 2 -->
-      <div class="col-md-4 reveal">
-        <div class="card shadow-sm border-0 p-4 h-100">
-          <h5 class="fw-bold">Apertura Inscripciones</h5>
-          <p class="text-muted mb-0">1 de Marzo 2026</p>
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="patrocinador-card reveal">
+          <img src="assets/img/patrocinadores/argos.png?v=2" alt="Argos">
         </div>
       </div>
 
-      <!-- Card 3 -->
-      <div class="col-md-4 reveal">
-        <div class="card shadow-sm border-0 p-4 h-100">
-          <h5 class="fw-bold">Inicio del Congreso</h5>
-          <p class="text-muted mb-0">10 de Junio 2026</p>
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="patrocinador-card reveal">
+          <img src="assets/img/patrocinadores/cct.png?v=2" alt="CCT">
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="patrocinador-card reveal">
+          <img src="assets/img/patrocinadores/cobre.png?v=2" alt="Cobre Panama">
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="patrocinador-card reveal">
+          <img src="assets/img/patrocinadores/ensa.png?v=2" alt="Ensa">
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="patrocinador-card reveal">
+          <img src="assets/img/patrocinadores/fz.png?v=2" alt="Farmazona">
+        </div>
+      </div>
+      
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="patrocinador-card reveal">
+          <img src="assets/img/patrocinadores/ssamarine.png?v=2" alt="SSA Marine">
         </div>
       </div>
 
@@ -105,155 +156,63 @@
 </section>
 
 
-
-<!-- CONFERENCIAS DESTACADAS -->
-<section class="py-5">
+<!-- FACULTADES -->
+<section class="facultades-section py-5">
   <div class="container">
-
-    <h2 class="fw-bold text-center mb-5 reveal">
-      Conferencias Destacadas
-    </h2>
-
-    <div class="row g-4">
-
-      <div class="col-md-4 reveal">
-        <div class="card shadow-sm border-0 h-100">
-          <div class="card-body p-4">
-            <h5 class="fw-bold">Inteligencia Artificial en la Educación</h5>
-            <p class="text-muted">
-              Cómo la IA está transformando la enseñanza universitaria.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 reveal">
-        <div class="card shadow-sm border-0 h-100">
-          <div class="card-body p-4">
-            <h5 class="fw-bold">Ciberseguridad y Redes Modernas</h5>
-            <p class="text-muted">
-              Estrategias actuales para proteger sistemas digitales.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 reveal">
-        <div class="card shadow-sm border-0 h-100">
-          <div class="card-body p-4">
-            <h5 class="fw-bold">Desarrollo Web Full Stack</h5>
-            <p class="text-muted">
-              Tendencias modernas en PHP, JavaScript y frameworks.
-            </p>
-          </div>
-        </div>
-      </div>
-
+    <div class="text-center mb-4">
+      <span class="facultades-badge">Comunidad Académica UTP</span>
+      <p class="facultades-text mb-0">
+        Integrando talento, innovación y formación académica de 
+        excelencia en nuestras facultades para impulsar el desarrollo tecnológico y logístico.
+      </p>
     </div>
-  </div>
-</section>
 
-<!-- PONENTES INVITADOS -->
-<section class="py-5 bg-light">
-  <div class="container">
+    <div class="facultades-slider">
+      <div class="facultades-track">
+        <div class="facultad-item">
+          <img src="assets/img/facultades/sistemas.png" alt="Facultad de Ingeniería de Sistemas Computacionales">
+        </div>
+        <div class="facultad-item">
+          <img src="assets/img/facultades/civil.png" alt="Facultad de Ingeniería Civil">
+        </div>
+        <div class="facultad-item">
+          <img src="assets/img/facultades/electrica.png" alt="Facultad de Ingeniería Eléctrica">
+        </div>
+        <div class="facultad-item">
+          <img src="assets/img/facultades/industrial.png" alt="Facultad de Ingeniería Industrial">
+        </div>
+        <div class="facultad-item">
+          <img src="assets/img/facultades/mecanica.png" alt="Facultad de Ingeniería Mecánica">
+        </div>
+        <div class="facultad-item">
+          <img src="assets/img/facultades/ciencia.png" alt="Facultad de Ciencia y Tecnología">
+        </div>
 
-    <!-- Título -->
-    <h2 class="fw-bold text-center mb-5 reveal">
-      Nuestros Ponentes Invitados
-    </h2>
-
-    <div class="row g-4 justify-content-center">
-
-      <!-- Ponente 1 -->
-      <div class="col-md-4 col-lg-3 reveal">
-        <div class="speaker-card text-center p-4 shadow-sm">
-
-          <img src="assets/ponentes/ponente1.jpg"
-               alt="Ponente"
-               class="speaker-img mb-3">
-
-          <h5 class="fw-bold mb-1">Dra. Ana Rodríguez</h5>
-          <p class="text-muted small mb-2">
-            Inteligencia Artificial Aplicada
-          </p>
-
-          <span class="badge bg-success px-3 py-2">
-            Conferencista Principal
-          </span>
-
+        <!-- duplicados para efecto infinito -->
+        <div class="facultad-item">
+          <img src="assets/img/facultades/sistemas.png" alt="Facultad de Ingeniería de Sistemas Computacionales">
+        </div>
+        <div class="facultad-item">
+          <img src="assets/img/facultades/civil.png" alt="Facultad de Ingeniería Civil">
+        </div>
+        <div class="facultad-item">
+          <img src="assets/img/facultades/electrica.png" alt="Facultad de Ingeniería Eléctrica">
+        </div>
+        <div class="facultad-item">
+          <img src="assets/img/facultades/industrial.png" alt="Facultad de Ingeniería Industrial">
+        </div>
+        <div class="facultad-item">
+          <img src="assets/img/facultades/mecanica.png" alt="Facultad de Ingeniería Mecánica">
+        </div>
+        <div class="facultad-item">
+          <img src="assets/img/facultades/ciencia.png" alt="Facultad de Ciencia y Tecnología">
         </div>
       </div>
-
-      <!-- Ponente 2 -->
-      <div class="col-md-4 col-lg-3 reveal">
-        <div class="speaker-card text-center p-4 shadow-sm">
-
-          <img src="assets/ponentes/ponente2.jpg"
-               alt="Ponente"
-               class="speaker-img mb-3">
-
-          <h5 class="fw-bold mb-1">Ing. Carlos Méndez</h5>
-          <p class="text-muted small mb-2">
-            Ciberseguridad y Redes Modernas
-          </p>
-
-          <span class="badge bg-primary px-3 py-2">
-            Invitado Especial
-          </span>
-
-        </div>
-      </div>
-
-      <!-- Ponente 3 -->
-      <div class="col-md-4 col-lg-3 reveal">
-        <div class="speaker-card text-center p-4 shadow-sm">
-
-          <img src="assets/ponentes/ponente3.jpg"
-               alt="Ponente"
-               class="speaker-img mb-3">
-
-          <h5 class="fw-bold mb-1">MSc. Laura González</h5>
-          <p class="text-muted small mb-2">
-            Desarrollo Web Full Stack
-          </p>
-
-          <span class="badge bg-warning text-dark px-3 py-2">
-            Tallerista
-          </span>
-
-        </div>
-      </div>
-
     </div>
-  </div>
-</section>
-
-
-<!-- CTA FINAL -->
-<section class="cta-section text-center text-light py-5">
-  <div class="container reveal">
-
-    <h2 class="fw-bold mb-3">¿Listo para participar?</h2>
-
-    <p class="lead">
-      Regístrate ahora y asegura tu cupo en las conferencias del Congreso Académico.
-    </p>
-
-    <a href="inscripcion.php" class="btn btn-warning btn-lg px-5 fw-bold">
-      Inscribirme
-    </a>
-
   </div>
 </section>
 
 <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
-
 <script src="assets/js/main.js"></script>
 
-
-
-
-
-
 <?php include("includes/footer.php"); ?>
-

@@ -1,0 +1,140 @@
+[12-May-2026 01:20:07 UTC] PHP Warning:  include(admin/includes/header.php): Failed to open stream: No such file or directory in /home/fjpzawkhtd/cinetcolon.com/admin/inscritos.php on line 4
+[12-May-2026 01:20:07 UTC] PHP Warning:  include(): Failed opening 'admin/includes/header.php' for inclusion (include_path='.:/opt/alt/php85/usr/share/pear:/opt/alt/php85/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fjpzawkhtd/cinetcolon.com/admin/inscritos.php on line 4
+[12-May-2026 01:20:07 UTC] PHP Warning:  include(admin/includes/footer.php): Failed to open stream: No such file or directory in /home/fjpzawkhtd/cinetcolon.com/admin/inscritos.php on line 135
+[12-May-2026 01:20:07 UTC] PHP Warning:  include(): Failed opening 'admin/includes/footer.php' for inclusion (include_path='.:/opt/alt/php85/usr/share/pear:/opt/alt/php85/usr/share/php:/usr/share/pear:/usr/share/php') in /home/fjpzawkhtd/cinetcolon.com/admin/inscritos.php on line 135
+[12-May-2026 19:11:24 UTC] PHP Warning:  Undefined array key "carrera" in /home/fjpzawkhtd/cinetcolon.com/admin/inscritos.php on line 90
+[12-May-2026 19:11:24 UTC] PHP Warning:  Undefined array key "conferencias" in /home/fjpzawkhtd/cinetcolon.com/admin/inscritos.php on line 98
+[12-May-2026 19:12:54 UTC] PHP Warning:  Undefined array key "carrera" in /home/fjpzawkhtd/cinetcolon.com/admin/inscritos.php on line 90
+[12-May-2026 19:12:54 UTC] PHP Warning:  Undefined array key "conferencias" in /home/fjpzawkhtd/cinetcolon.com/admin/inscritos.php on line 98
+[12-May-2026 19:12:56 UTC] PHP Warning:  Undefined array key "carrera" in /home/fjpzawkhtd/cinetcolon.com/admin/inscritos.php on line 90
+[12-May-2026 19:12:56 UTC] PHP Warning:  Undefined array key "conferencias" in /home/fjpzawkhtd/cinetcolon.com/admin/inscritos.php on line 98
+[12-May-2026 19:13:37 UTC] PHP Warning:  Undefined array key "carrera" in /home/fjpzawkhtd/cinetcolon.com/admin/inscritos.php on line 89
+[12-May-2026 19:16:21 UTC] PHP Warning:  Undefined array key "Facultad" in /home/fjpzawkhtd/cinetcolon.com/admin/inscritos.php on line 89
+[12-May-2026 20:02:47 UTC] PHP Warning:  Undefined array key "Facultad" in /home/fjpzawkhtd/cinetcolon.com/admin/inscritos.php on line 89
+[12-May-2026 20:02:56 UTC] PHP Warning:  fopen(../assets/img/logo-utp.png): Failed to open stream: No such file or directory in /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php on line 1274
+[12-May-2026 20:02:56 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Can't open image file: ../assets/img/logo-utp.png in /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php(1276): FPDF->Error()
+#1 /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php(890): FPDF->_parsepng()
+#2 /home/fjpzawkhtd/cinetcolon.com/admin/exportar_pdf.php(14): FPDF->Image()
+#3 {main}
+  thrown in /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php on line 267
+[12-May-2026 20:02:57 UTC] PHP Warning:  fopen(../assets/img/logo-utp.png): Failed to open stream: No such file or directory in /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php on line 1274
+[12-May-2026 20:02:57 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Can't open image file: ../assets/img/logo-utp.png in /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php(1276): FPDF->Error()
+#1 /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php(890): FPDF->_parsepng()
+#2 /home/fjpzawkhtd/cinetcolon.com/admin/exportar_pdf.php(14): FPDF->Image()
+#3 {main}
+  thrown in /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php on line 267
+[12-May-2026 20:02:59 UTC] PHP Warning:  fopen(../assets/img/logo-utp.png): Failed to open stream: No such file or directory in /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php on line 1274
+[12-May-2026 20:02:59 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Can't open image file: ../assets/img/logo-utp.png in /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php(1276): FPDF->Error()
+#1 /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php(890): FPDF->_parsepng()
+#2 /home/fjpzawkhtd/cinetcolon.com/admin/exportar_pdf.php(14): FPDF->Image()
+#3 {main}
+  thrown in /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php on line 267
+[12-May-2026 20:03:01 UTC] PHP Warning:  fopen(../assets/img/logo-utp.png): Failed to open stream: No such file or directory in /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php on line 1274
+[12-May-2026 20:03:01 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Can't open image file: ../assets/img/logo-utp.png in /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php(1276): FPDF->Error()
+#1 /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php(890): FPDF->_parsepng()
+#2 /home/fjpzawkhtd/cinetcolon.com/admin/exportar_pdf.php(14): FPDF->Image()
+#3 {main}
+  thrown in /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php on line 267
+[12-May-2026 20:04:03 UTC] PHP Warning:  fopen(../assets/img/logo-utp.png): Failed to open stream: No such file or directory in /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php on line 1274
+[12-May-2026 20:04:03 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Can't open image file: ../assets/img/logo-utp.png in /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php(1276): FPDF->Error()
+#1 /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php(890): FPDF->_parsepng()
+#2 /home/fjpzawkhtd/cinetcolon.com/admin/exportar_pdf.php(14): FPDF->Image()
+#3 {main}
+  thrown in /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php on line 267
+[12-May-2026 21:59:00 UTC] PHP Warning:  fopen(../assets/img/logo-utp.png): Failed to open stream: No such file or directory in /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php on line 1274
+[12-May-2026 21:59:00 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Can't open image file: ../assets/img/logo-utp.png in /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php(1276): FPDF->Error()
+#1 /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php(890): FPDF->_parsepng()
+#2 /home/fjpzawkhtd/cinetcolon.com/admin/exportar_pdf.php(14): FPDF->Image()
+#3 {main}
+  thrown in /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php on line 267
+[12-May-2026 21:59:02 UTC] PHP Warning:  fopen(../assets/img/logo-utp.png): Failed to open stream: No such file or directory in /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php on line 1274
+[12-May-2026 21:59:02 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Can't open image file: ../assets/img/logo-utp.png in /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php(1276): FPDF->Error()
+#1 /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php(890): FPDF->_parsepng()
+#2 /home/fjpzawkhtd/cinetcolon.com/admin/exportar_pdf.php(14): FPDF->Image()
+#3 {main}
+  thrown in /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php on line 267
+[13-May-2026 23:45:44 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/fjpzawkhtd/cinetcolon.com/admin/inscritos.php:7) in /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php(1047): FPDF->Error()
+#1 /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php(1017): FPDF->_checkoutput()
+#2 /home/fjpzawkhtd/cinetcolon.com/admin/inscritos.php(323): FPDF->Output()
+#3 {main}
+  thrown in /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php on line 267
+[13-May-2026 23:45:48 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/fjpzawkhtd/cinetcolon.com/admin/inscritos.php:7) in /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php(1047): FPDF->Error()
+#1 /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php(1017): FPDF->_checkoutput()
+#2 /home/fjpzawkhtd/cinetcolon.com/admin/inscritos.php(323): FPDF->Output()
+#3 {main}
+  thrown in /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php on line 267
+[13-May-2026 23:45:49 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/fjpzawkhtd/cinetcolon.com/admin/inscritos.php:7) in /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php(1047): FPDF->Error()
+#1 /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php(1017): FPDF->_checkoutput()
+#2 /home/fjpzawkhtd/cinetcolon.com/admin/inscritos.php(323): FPDF->Output()
+#3 {main}
+  thrown in /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php on line 267
+[15-May-2026 17:57:25 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file in /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php(1058): FPDF->Error()
+#1 /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php(1017): FPDF->_checkoutput()
+#2 /home/fjpzawkhtd/cinetcolon.com/admin/exportar_pdf.php(199): FPDF->Output()
+#3 {main}
+  thrown in /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php on line 267
+[15-May-2026 17:57:34 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file in /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php(1058): FPDF->Error()
+#1 /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php(1017): FPDF->_checkoutput()
+#2 /home/fjpzawkhtd/cinetcolon.com/admin/exportar_pdf.php(199): FPDF->Output()
+#3 {main}
+  thrown in /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php on line 267
+[15-May-2026 17:57:39 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file in /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php(1058): FPDF->Error()
+#1 /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php(1017): FPDF->_checkoutput()
+#2 /home/fjpzawkhtd/cinetcolon.com/admin/exportar_pdf.php(199): FPDF->Output()
+#3 {main}
+  thrown in /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php on line 267
+[15-May-2026 17:58:21 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file in /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php(1058): FPDF->Error()
+#1 /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php(1017): FPDF->_checkoutput()
+#2 /home/fjpzawkhtd/cinetcolon.com/admin/exportar_pdf.php(199): FPDF->Output()
+#3 {main}
+  thrown in /home/fjpzawkhtd/cinetcolon.com/fpdf/fpdf.php on line 267
+[04-Jun-2026 19:58:30 UTC] PHP Warning:  Undefined variable $Qe60PVqAecArjFTUZVlQ2 in /home/fjpzawkhtd/cinetcolon.com/admin/login.php on line 18
+[04-Jun-2026 19:58:34 UTC] PHP Warning:  Undefined variable $Qe60PVqAecArjFTUZVlQ2 in /home/fjpzawkhtd/cinetcolon.com/admin/login.php on line 18
+[04-Jun-2026 19:58:36 UTC] PHP Warning:  Undefined variable $Qe60PVqAecArjFTUZVlQ2 in /home/fjpzawkhtd/cinetcolon.com/admin/login.php on line 18
+[04-Jun-2026 19:58:42 UTC] PHP Warning:  Undefined variable $Qe60PVqAecArjFTUZVlQ2 in /home/fjpzawkhtd/cinetcolon.com/admin/login.php on line 18
+[04-Jun-2026 19:58:49 UTC] PHP Warning:  Undefined variable $Qe60PVqAecArjFTUZVlQ2 in /home/fjpzawkhtd/cinetcolon.com/admin/login.php on line 18
+[04-Jun-2026 19:59:26 UTC] PHP Warning:  Undefined variable $Qe60PVqAecArjFTUZVlQ2 in /home/fjpzawkhtd/cinetcolon.com/admin/login.php on line 18
+[04-Jun-2026 19:59:27 UTC] PHP Warning:  Undefined variable $Qe60PVqAecArjFTUZVlQ2 in /home/fjpzawkhtd/cinetcolon.com/admin/login.php on line 18
+[04-Jun-2026 19:59:35 UTC] PHP Warning:  Undefined variable $Qe60PVqAecArjFTUZVlQ2 in /home/fjpzawkhtd/cinetcolon.com/admin/login.php on line 18
+[04-Jun-2026 20:02:37 UTC] PHP Warning:  Undefined variable $Qe60PVqAecArjFTUZVlQ2 in /home/fjpzawkhtd/cinetcolon.com/admin/login.php on line 18
+[04-Jun-2026 20:03:03 UTC] PHP Warning:  Undefined variable $Qe60PVqAecArjFTUZVlQ2 in /home/fjpzawkhtd/cinetcolon.com/admin/login.php on line 18
+[04-Jun-2026 20:03:21 UTC] PHP Warning:  Undefined variable $Qe60PVqAecArjFTUZVlQ2 in /home/fjpzawkhtd/cinetcolon.com/admin/login.php on line 18
+[04-Jun-2026 20:05:30 UTC] PHP Warning:  Undefined variable $Qe60PVqAecArjFTUZVlQ2 in /home/fjpzawkhtd/cinetcolon.com/admin/login.php on line 18
+[04-Jun-2026 20:05:57 UTC] PHP Warning:  Undefined variable $Qe60PVqAecArjFTUZVlQ2 in /home/fjpzawkhtd/cinetcolon.com/admin/login.php on line 18
+[04-Jun-2026 20:08:55 UTC] PHP Warning:  Undefined variable $WrwtJP6N4qwFOUa3YSyCEOGCfUOCeUSTsOX3sTO in /home/fjpzawkhtd/cinetcolon.com/admin/login.php on line 18
+[04-Jun-2026 20:09:08 UTC] PHP Warning:  Undefined variable $WrwtJP6N4qwFOUa3YSyCEOGCfUOCeUSTsOX3sTO in /home/fjpzawkhtd/cinetcolon.com/admin/login.php on line 18
+[04-Jun-2026 20:10:28 UTC] PHP Warning:  Undefined variable $WrwtJP6N4qwFOUa3YSyCEOGCfUOCeUSTsOX3sTO in /home/fjpzawkhtd/cinetcolon.com/admin/login.php on line 18
+[04-Jun-2026 20:11:19 UTC] PHP Parse error:  Unmatched '}' in /home/fjpzawkhtd/cinetcolon.com/admin/login.php on line 56
+[04-Jun-2026 20:11:40 UTC] PHP Parse error:  Unmatched '}' in /home/fjpzawkhtd/cinetcolon.com/admin/login.php on line 56
+[04-Jun-2026 20:11:44 UTC] PHP Parse error:  Unmatched '}' in /home/fjpzawkhtd/cinetcolon.com/admin/login.php on line 56
+[04-Jun-2026 20:12:11 UTC] PHP Parse error:  Unmatched '}' in /home/fjpzawkhtd/cinetcolon.com/admin/login.php on line 56
+[04-Jun-2026 20:12:26 UTC] PHP Parse error:  Unmatched '}' in /home/fjpzawkhtd/cinetcolon.com/admin/login.php on line 56
+[04-Jun-2026 20:12:31 UTC] PHP Parse error:  Unmatched '}' in /home/fjpzawkhtd/cinetcolon.com/admin/login.php on line 56

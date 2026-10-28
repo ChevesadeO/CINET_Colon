@@ -56,7 +56,7 @@ Este proyecto se distribuye bajo la licencia **MIT**, permitiendo su uso y adapt
 
 Autores
 
-Desarrollado por: **Chevesade Ornano y Jason Ospina**  
+Desarrollado por: **Chevesade Ornano **  
 Estudiante de Licenciatura en Desarrollo y Gestión de Software  
 Universidad Tecnológica de Panamá (UTP)- Centro Regional de Colon
 
